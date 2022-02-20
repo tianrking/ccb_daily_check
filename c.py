@@ -86,11 +86,11 @@ headers = {
 body = {
   "stuClass": "9999",
   "schoolId": "10530",
-  "schoolName": "湘潭大学",
-  # "stId": "201705800131",
-  "stId": "201705800130",
+  "schoolName": "", # 学校
+  # "stId": "",
+  "stId": "", 
   "userId": "A3231003158107633243904008",
-  # "stName": "王天睿",
+  # "stName": "小明",
   # "locationAddr": "北京市朝阳区黄木厂路",
   # "id": "D839DCC92AAF53D1E0539349FD0A51BF",
   "departments": "50eeac63789e4c78810a0d6571a77652",
@@ -106,7 +106,7 @@ body = {
   "isVaccinate": "0",
   "otherDesc": "1",
   "isContactWithDiagnosis": "N",
-  "stMobile": "15773211225"
+  "stMobile": "" # 电话
 }
 response = requests.post('https://app.xiaoyuan.ccb.com/channelManage/outbreak/addOutbreak', headers=headers, data = json.dumps(body))
 print(response.text)

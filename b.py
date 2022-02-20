@@ -20,10 +20,10 @@
 # body = {
 #   "stuClass": "9999",
 #   "schoolId": "10530",
-#   "schoolName": "湘潭大学",
-#   "stId": "201705800130",
+#   "schoolName": "", # 学校
+#   "stId": "", # 学号
 #   "userId": "A3231003158107633243904008",
-#   "stName": "王天睿",
+#   "stName": "", #名字
 #   "locationAddr": "北京市朝阳区黄木厂路",
 #   "id": "D839DCC92AAF53D1E0539349FD0A51BF",
 #   "departments": "50eeac63789e4c78810a0d6571a77652",
@@ -48,13 +48,13 @@
 #   "professional": "9D7B8587B3C74DA8E0539349FD0A7824",
 #   "personType": "",
 #   "temperature": "36",
-#   "remarks": "每周一次核酸检测 2月13日阴性",
+#   "remarks": "", # 备注其他说明
 #   "isAppearDiagnosis": "N",
 #   "isVaccinate": "0",
 #   "otherDesc": "1",
 #   "isContactWithDiagnosis": "N",
 #   "isInSchool": "",
-#   "stMobile": "15773211225"
+#   "stMobile": "" 电话
 # }
 # response = requests.post('https://app.xiaoyuan.ccb.com/channelManage/outbreak/addOutbreak', headers=headers, data = json.dumps(body))
 # print(response.text)
